@@ -17,6 +17,7 @@ a {
 
 .container {
   max-width: 1170px;
+  width: 100%;
   padding: 0 15px;
   margin: 0 auto;
 }
@@ -116,14 +117,15 @@ header {
   background-color: rgba(255, 255, 255, 0.3);
 }
 
-.menu-icon{
+/* Tambahkan CSS untuk menu-icon */
+.menu-icon {
   color: white;
   float: right;
   font-size: 25px;
   padding: 21px 0;
-  display: none;
+  /* Gantikan property display ke none */
+ display:none; 
 }
-
 .lesson-wrapper {
   padding-bottom: 80px;
   padding-left: 5%;
@@ -131,17 +133,14 @@ header {
   background-color: #f7f7f7;
   text-align: center;
 }
-
 .heading {
   padding-top: 80px;
   padding-bottom: 50px;
   color: #5f5d60;
 }
-
 .heading h2 {
   font-weight: normal;
 }
-
 .lesson {
   float: left;
   width: 25%;
